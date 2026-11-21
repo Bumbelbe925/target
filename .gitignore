@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+
+# Entornos virtuales
+.venv/
+venv/
+env/
+
+# Salidas del detector y de las herramientas
+detectadas/
+resultados/
+errores/
+sinteticas/
+dificiles/
+distractores/
+fondos/
+*.json
+
+# Modelos
+*.pt
+*.onnx
+*.tflite
+
+# Sistema / editores
+.DS_Store
+.idea/
+.vscode/
